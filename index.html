@@ -5,14 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pangolin</title>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <nav>
-        <img class="logo" src="./images/logo.jpg" alt="logo" height="100rem">
+        <img class="logo" src="./images/logo.jpg" alt="logo">
         <div class="menu">
-            <ul>
+            <ul id="nav-bar">
                 <li>About</li>
                 <li>exchange</li>
                 <li>Analytics</li>
@@ -20,6 +25,9 @@
             </ul>
             <button class="launch">Launch App</button>
         </div>
+        <!-- <img src="./images/menu.svg" id="ham-menu" class="menubar" alt=""> -->
+        <i class="fas fa-bars" id="ham-menu"></i>
+        <!-- <img src="./images/cross.svg" class="cross" alt=""> -->
     </nav>
     <section class="landing_page">
         <div>
@@ -28,7 +36,7 @@
                 liquidity, and smooth onboarding, Pangolin offers easy swaps and great tools for projects and traders.
             </p>
         </div>
-        <img src="./images/home-843f0af1.png" alt="">
+        <img class="people" src="./images/home-843f0af1.png" alt="">
 
 
     </section>
