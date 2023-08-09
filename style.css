@@ -149,6 +149,7 @@ ul li {
 
 .card img {
     background-color: #1C1C1C;
+    height: 130px;
 }
 
 .card .title {
@@ -203,8 +204,8 @@ ul li {
     }
 
     nav .menu ul {
-        background-color: black;
-        position: fixed;
+        background-color: red;
+        position:relative;
         left: -100vw;
         top: 73.6px;
         width: 100vw;
@@ -265,6 +266,23 @@ ul li {
     }
     .people{
         height: 300px;
+    }
+    .card_container{
+        justify-content: space-evenly;
+    }
+    .card {
+        font-size: 17px;
+        color: #fff;
+        height: 80px;
+        width: 300px;
+        padding: 1.0rem;
+        margin: 0.5rem;
+    }
+    .card img{
+        height: 70px;
+    }
+    .people{
+        height: 270px;
     }
 }
 @media only screen and (max-width:500px) {
